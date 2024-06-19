@@ -1,0 +1,254 @@
+<html>
+<head>
+    <title>Test 1</title>
+<style>
+
+body {
+margin: 0;
+padding: 0;
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+}
+
+nav ul li {
+display: inline;
+margin: 0 17px;
+}
+
+
+section {
+padding: 40px;
+}
+
+h2 {
+border-bottom: 3px solid black;
+}
+
+code {
+background: gray;
+padding: 2px 4px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+
+}
+
+table, th, td {
+border: 1px solid gray;
+}
+
+th, td {
+padding: 10px;
+text-align: left;
+}
+
+form {
+background: transparent;
+padding: 20px;
+border: 1px solid #ddd;
+}
+
+form input[type="submit"] {
+background: grey;
+color: white;
+border: 1px solid black;
+}
+
+form label {
+display: block;
+margin: 0.5rem 0 0.2rem;
+}
+
+form input {
+width: 100%;
+padding: 4px;
+}
+
+footer {
+background: black;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+header {
+background: black;
+color: white;
+padding: 32px;
+text-align: center;
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1>Welcome to Learn HTML Basics</h1>
+<nav>
+<ul>
+<li><a href="#chapter1">Structure</a></li>
+<li><a href="#chapter2">Text</a></li>
+<li><a href="#chapter3">Lists</a></li>
+<li><a href="#chapter4">Links</a></li>
+<li><a href="#chapter5">Images</a></li>
+<li><a href="#chapter6">Tables</a></li>
+<li><a href="#chapter7">Forms</a></li>
+<li><a href="#chapter8">Extra Markup</a></li>
+<li><a href="#chapter9">Media</a></li>
+</ul>
+</nav>
+</header>
+
+<section id="chapter1">
+<h2>Chapter 1: Structure</h2>
+<p>
+The structure of an HTML document includes the use of elements such as <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, and <code>&lt;body&gt;</code>. These elements help to define the layout and content of a web page.
+</p>
+</section>
+
+<section id="chapter2">
+<h2>Chapter 2: Text</h2>
+<h3>Headings</h3>
+<p>
+HTML offers six levels of headings, from <code> &lt; h1 &gt; </code> to <code>&lt;h6&gt;</code>. Each heading level represents a different level of importance.
+</p>
+<h1>Heading 1</h1>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6><br><br>
+<h3>Paragraphs</h3>
+<p>Paragraphs are defined with the <code> &lt; p &gt; </code> tag.</p>
+<p>This is a sample paragraph demonstrating the paragraph tag.</p>
+</section>
+
+<section id="chapter3">
+<h2>Chapter 3: Lists</h2>
+<h3>Ordered List</h3>
+<ol>
+<li>First item
+<ol>
+<li>Sub item 1</li>
+<li>Sub item 2</li>
+</ol>
+</li>
+
+<li>Second item
+<ol>
+<li>Sub item 1</li>
+<li>Sub item 2
+<ol>
+<li>Sub sub item 1</li>
+<li>Sub sub item 2</li>
+</ol>
+</li>
+</ol>
+</li>
+
+<li>Third item</li>
+</ol>
+
+<h3>Unordered List</h3>
+<ul>
+<li>First item
+<ul>
+<li>Sub item 1</li>
+<li>Sub item 2</li>
+</ul>
+</li>
+<li>Second item
+<ul>
+<li>Sub item 1</li>
+<li>Sub item 2
+<ul>
+<li>Sub sub item 1</li>
+<li>Sub sub item 2</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Third item</li>
+</ul>
+<h3>Definition List</h3>
+<dl>
+<dt>HTML</dt>
+<dd>A markup language for creating web pages.</dd><dt>CSS</dt><dd>A style sheet language used for describing the presentation of a document written in HTML.</dd>
+<dt>JavaScript</dt>
+<dd>A programming language commonly used in web development to create interactive effects within web browsers.</dd>
+</dl>
+</section>
+      
+
+<section id="chapter4">
+<h2>Chapter 4: Links</h2>
+<p>Links are created using the <code> &lt; a &gt;</code> tag.</p>
+<a href="#">Visit Example</a>
+</section>
+
+<section id="chapter5">
+<h2>Chapter 5: Images</h2>
+<p>Images are embedded using the <code> &lt; img &gt;</code> tag.</p>
+<img src="austin-kehmeier-lyiKExA4zQA-unsplash.jpg" alt="Image" width="250">
+</section>
+
+<section id="chapter6">
+<h2>Chapter 6: Tables</h2>
+<table>
+<tr>
+<th>Header 1</th>
+<th>Header 2</th>
+</tr>
+<tr>
+<td>Data 1</td>
+<td>Data 2</td>
+</tr>
+</table>
+</section>
+
+<section id="chapter7">
+<h2>Chapter 7: Forms</h2>
+<form action="Success.html" method="get">
+<label for="name">Name:</label>
+<input type="text" id="name" required><br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" required><br><br>
+<input type="submit" value="Submit">
+</form>
+</section>
+
+<section id="chapter8">
+<h2>Chapter 8: Extra Markup</h2>
+<p>
+Additional elements include <code>&lt;div&gt;</code>, <code>&lt;span&gt;</code>, and more.
+</p>
+<div style="background-color: grey;">
+<span>This is a span inside a div.</span>
+</div>
+</section>
+
+<section id="chapter9">
+<h2>Chapter 9: Media</h2>
+<h3>Video</h3>
+<video src="123.mp4" width="400" height="300" controls>
+
+</video>
+<h3>Audio</h3>
+<audio src="1212.mp3" controls>
+</audio>
+</section>
+
+<footer>
+<p>&copy; Designed by Mahaveer Shivani</p>
+</footer>
+
+</body>
+</html>
